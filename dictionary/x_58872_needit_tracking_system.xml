@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Tracking System" max_length="40" name="x_58872_needit_tracking_system" type="collection">
+        <element label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element label="Customer" max_length="32" name="customer" reference="sys_user" type="reference"/>
+        <element label="Notes" max_length="160" name="notes" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Status Reason" max_length="40" name="status_reason" type="string"/>
+        <element label="Summary" max_length="40" name="summary" type="string"/>
+        <element choice="1" label="Urgency" max_length="40" name="urgency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" value="1"/>
+                <element inactive_on_update="false" label="High" value="2"/>
+                <element inactive_on_update="false" label="Low" value="4"/>
+                <element inactive_on_update="false" label="Medium" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="4" label="Impact" max_length="40" name="u_impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Extensive" value="1"/>
+                <element inactive_on_update="false" label="Minor" value="4"/>
+                <element inactive_on_update="false" label="Moderate" value="3"/>
+                <element inactive_on_update="false" label="Significant" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="Priority" max_length="40" name="u_priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" value="1"/>
+                <element inactive_on_update="false" label="High" value="2"/>
+                <element inactive_on_update="false" label="Low" value="4"/>
+                <element inactive_on_update="false" label="Medium" value="3"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="company"/>
+        </index>
+        <index name="index2">
+            <element name="customer"/>
+        </index>
+    </element>
+</database>
