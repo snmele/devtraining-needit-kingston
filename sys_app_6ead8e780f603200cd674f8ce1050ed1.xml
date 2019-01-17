@@ -6,7 +6,7 @@
         <licensable>true</licensable>
         <license_category/>
         <license_model>none</license_model>
-        <logo/>
+        <logo>7133862fdb622300e603a0f2ca961958</logo>
         <menu/>
         <name>NeedIt</name>
         <private>false</private>
@@ -23,9 +23,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-23 20:48:29</sys_created_on>
         <sys_id>6ead8e780f603200cd674f8ce1050ed1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-01-23 20:48:29</sys_updated_on>
+        <sys_updated_on>2018-12-29 07:45:08</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
@@ -33,4 +33,42 @@
         <vendor_prefix/>
         <version>1.0.0</version>
     </sys_app>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#fffefa</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>logo</file_name>
+        <image_height>60</image_height>
+        <image_width>193</image_width>
+        <size_bytes>2729</size_bytes>
+        <size_compressed>2699</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-29 07:45:08</sys_created_on>
+        <sys_id>7133862fdb622300e603a0f2ca961958</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-29 07:45:08</sys_updated_on>
+        <table_name>ZZ_YYsys_app</table_name>
+        <table_sys_id>6ead8e780f603200cd674f8ce1050ed1</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="7133862fdb622300e603a0f2ca961958">7133862fdb622300e603a0f2ca961958</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-29 07:45:08</sys_created_on>
+        <sys_id>7933862fdb622300e603a0f2ca961958</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3588</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="7133862fdb622300e603a0f2ca961958">7133862fdb622300e603a0f2ca961958</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-29 07:45:08</sys_created_on>
+        <sys_id>f933862fdb622300e603a0f2ca961958</sys_id>
+    </sys_attachment_doc>
 </record_update>
